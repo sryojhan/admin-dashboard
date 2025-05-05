@@ -288,8 +288,32 @@ body {
 
     display: grid;
 
+    grid-template: 1fr 1fr / 1fr;
+
     gap: 1em;
+
 }
+
+
+.annoucements{
+
+    overflow: hidden;
+}
+
+.scrollable-content{
+
+    background-color: white;
+    border-radius: 20px;
+    overflow: auto;
+}
+.scrollable-content p{
+
+    margin: 0;
+    font-weight: 300;
+
+    text-justify: inter-word;
+}
+
 
 a{
     color: inherit;
